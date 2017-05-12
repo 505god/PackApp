@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2760A11EC59628008F4324 /* SWAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27609F1EC59628008F4324 /* SWAPIManager.m */; };
+		5D2760A21EC59628008F4324 /* SWApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760A01EC59628008F4324 /* SWApiProxy.m */; };
+		5D2760A51EC59665008F4324 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2760A41EC59665008F4324 /* libsqlite3.0.tbd */; };
+		5D2760A81EC597E1008F4324 /* SWKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760A71EC597E1008F4324 /* SWKeyValueStore.m */; };
+		5D2760AC1EC59B04008F4324 /* Routable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760AB1EC59B04008F4324 /* Routable.m */; };
+		5D2760AF1EC59B35008F4324 /* SWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760AE1EC59B35008F4324 /* SWLoginViewController.m */; };
+		5D2760B31EC5B332008F4324 /* NSString+validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760B21EC5B332008F4324 /* NSString+validation.m */; };
+		5D2760B61EC5B404008F4324 /* NSArray+validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2760B51EC5B404008F4324 /* NSArray+validation.m */; };
 		5D5A22751EC432D10099EA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A22741EC432D10099EA71 /* main.m */; };
 		5D5A22781EC432D10099EA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A22771EC432D10099EA71 /* AppDelegate.m */; };
 		5D5A227B1EC432D10099EA71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A227A1EC432D10099EA71 /* ViewController.m */; };
 		5D5A227E1EC432D10099EA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A227C1EC432D10099EA71 /* Main.storyboard */; };
 		5D5A22801EC432D10099EA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A227F1EC432D10099EA71 /* Assets.xcassets */; };
 		5D5A22831EC432D10099EA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A22811EC432D10099EA71 /* LaunchScreen.storyboard */; };
+		FF98808593E500953C80850A /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 818F4E3F9DC0C417605CE415 /* libPods-Test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BF887FEE920878015F004C6 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		5D27609D1EC59628008F4324 /* SWApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWApiProxy.h; sourceTree = "<group>"; };
+		5D27609E1EC59628008F4324 /* SWAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWAPIManager.h; sourceTree = "<group>"; };
+		5D27609F1EC59628008F4324 /* SWAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWAPIManager.m; sourceTree = "<group>"; };
+		5D2760A01EC59628008F4324 /* SWApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWApiProxy.m; sourceTree = "<group>"; };
+		5D2760A41EC59665008F4324 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5D2760A61EC597E1008F4324 /* SWKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWKeyValueStore.h; sourceTree = "<group>"; };
+		5D2760A71EC597E1008F4324 /* SWKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWKeyValueStore.m; sourceTree = "<group>"; };
+		5D2760AA1EC59B04008F4324 /* Routable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routable.h; sourceTree = "<group>"; };
+		5D2760AB1EC59B04008F4324 /* Routable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routable.m; sourceTree = "<group>"; };
+		5D2760AD1EC59B35008F4324 /* SWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLoginViewController.h; sourceTree = "<group>"; };
+		5D2760AE1EC59B35008F4324 /* SWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLoginViewController.m; sourceTree = "<group>"; };
+		5D2760B11EC5B332008F4324 /* NSString+validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+validation.h"; sourceTree = "<group>"; };
+		5D2760B21EC5B332008F4324 /* NSString+validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+validation.m"; sourceTree = "<group>"; };
+		5D2760B41EC5B404008F4324 /* NSArray+validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+validation.h"; sourceTree = "<group>"; };
+		5D2760B51EC5B404008F4324 /* NSArray+validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+validation.m"; sourceTree = "<group>"; };
 		5D5A22701EC432D10099EA71 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5A22741EC432D10099EA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D5A22761EC432D10099EA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +51,8 @@
 		5D5A227F1EC432D10099EA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5A22821EC432D10099EA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5A22841EC432D10099EA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7738BC25FC910E8A35BCEFA3 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		818F4E3F9DC0C417605CE415 /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2760A51EC59665008F4324 /* libsqlite3.0.tbd in Frameworks */,
+				FF98808593E500953C80850A /* libPods-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D27609C1EC5960F008F4324 /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				5D27609D1EC59628008F4324 /* SWApiProxy.h */,
+				5D2760A01EC59628008F4324 /* SWApiProxy.m */,
+				5D27609E1EC59628008F4324 /* SWAPIManager.h */,
+				5D27609F1EC59628008F4324 /* SWAPIManager.m */,
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		5D2760A31EC5964A008F4324 /* 数据DB */ = {
+			isa = PBXGroup;
+			children = (
+				5D2760A61EC597E1008F4324 /* SWKeyValueStore.h */,
+				5D2760A71EC597E1008F4324 /* SWKeyValueStore.m */,
+			);
+			path = "数据DB";
+			sourceTree = "<group>";
+		};
+		5D2760A91EC59AEC008F4324 /* 页面跳转route */ = {
+			isa = PBXGroup;
+			children = (
+				5D2760AA1EC59B04008F4324 /* Routable.h */,
+				5D2760AB1EC59B04008F4324 /* Routable.m */,
+			);
+			path = "页面跳转route";
+			sourceTree = "<group>";
+		};
+		5D2760B01EC5B19C008F4324 /* validation */ = {
+			isa = PBXGroup;
+			children = (
+				5D2760B11EC5B332008F4324 /* NSString+validation.h */,
+				5D2760B21EC5B332008F4324 /* NSString+validation.m */,
+				5D2760B41EC5B404008F4324 /* NSArray+validation.h */,
+				5D2760B51EC5B404008F4324 /* NSArray+validation.m */,
+			);
+			path = validation;
+			sourceTree = "<group>";
+		};
 		5D5A22671EC432D10099EA71 = {
 			isa = PBXGroup;
 			children = (
 				5D5A22721EC432D10099EA71 /* Test */,
 				5D5A22711EC432D10099EA71 /* Products */,
+				6D9459D50BED552044DA38A7 /* Pods */,
+				B7B73E0B957371A25D13CB5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +133,12 @@
 				5D5A22771EC432D10099EA71 /* AppDelegate.m */,
 				5D5A22791EC432D10099EA71 /* ViewController.h */,
 				5D5A227A1EC432D10099EA71 /* ViewController.m */,
+				5D2760AD1EC59B35008F4324 /* SWLoginViewController.h */,
+				5D2760AE1EC59B35008F4324 /* SWLoginViewController.m */,
+				5D2760B01EC5B19C008F4324 /* validation */,
+				5D2760A91EC59AEC008F4324 /* 页面跳转route */,
+				5D2760A31EC5964A008F4324 /* 数据DB */,
+				5D27609C1EC5960F008F4324 /* 网络 */,
 				5D5A227C1EC432D10099EA71 /* Main.storyboard */,
 				5D5A227F1EC432D10099EA71 /* Assets.xcassets */,
 				5D5A22811EC432D10099EA71 /* LaunchScreen.storyboard */,
@@ -79,6 +156,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6D9459D50BED552044DA38A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF887FEE920878015F004C6 /* Pods-Test.debug.xcconfig */,
+				7738BC25FC910E8A35BCEFA3 /* Pods-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7B73E0B957371A25D13CB5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2760A41EC59665008F4324 /* libsqlite3.0.tbd */,
+				818F4E3F9DC0C417605CE415 /* libPods-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D5A22871EC432D10099EA71 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				57703A21BD39D0FE6709718B /* [CP] Check Pods Manifest.lock */,
 				5D5A226C1EC432D10099EA71 /* Sources */,
 				5D5A226D1EC432D10099EA71 /* Frameworks */,
 				5D5A226E1EC432D10099EA71 /* Resources */,
+				E58BDEEC4CCCBCEDEF783CAC /* [CP] Embed Pods Frameworks */,
+				5EADB52769EC417ABEA80393 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +203,7 @@
 		5D5A22681EC432D10099EA71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SW;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "邱大侠";
 				TargetAttributes = {
@@ -145,14 +244,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57703A21BD39D0FE6709718B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EADB52769EC417ABEA80393 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58BDEEC4CCCBCEDEF783CAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D5A226C1EC432D10099EA71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2760AC1EC59B04008F4324 /* Routable.m in Sources */,
+				5D2760B31EC5B332008F4324 /* NSString+validation.m in Sources */,
+				5D2760A11EC59628008F4324 /* SWAPIManager.m in Sources */,
+				5D2760A81EC597E1008F4324 /* SWKeyValueStore.m in Sources */,
 				5D5A227B1EC432D10099EA71 /* ViewController.m in Sources */,
+				5D2760AF1EC59B35008F4324 /* SWLoginViewController.m in Sources */,
+				5D2760A21EC59628008F4324 /* SWApiProxy.m in Sources */,
 				5D5A22781EC432D10099EA71 /* AppDelegate.m in Sources */,
 				5D5A22751EC432D10099EA71 /* main.m in Sources */,
+				5D2760B61EC5B404008F4324 /* NSArray+validation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +424,7 @@
 		};
 		5D5A22881EC432D10099EA71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF887FEE920878015F004C6 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
@@ -281,6 +436,7 @@
 		};
 		5D5A22891EC432D10099EA71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7738BC25FC910E8A35BCEFA3 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
@@ -309,6 +465,7 @@
 				5D5A22891EC432D10099EA71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
